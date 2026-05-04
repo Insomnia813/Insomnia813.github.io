@@ -1,22 +1,32 @@
-# main links links
+# 顶部导航菜单
+# 注意：anchor 链接由章节标题生成。带 emoji 的标题在 kramdown 渲染后
+#      会在 anchor 前多一个连字符，所以下面 url 都用 /#- 开头（除 about）。
+#      如果某个章节你打算删掉，也记得把这里对应的条目一起删掉，否则会出现"死链接"。
+
 main:
-  - title: "About Me"
-    url: "/#about-me"
+  - title: "Home"
+    url: /
+
+  - title: "About"
+    url: /#-about-me
 
   - title: "News"
-    url: "/#-news"
+    url: /#-news
+
+  - title: "Projects"
+    url: /#-selected-projects
 
   - title: "Publications"
-    url: "/#-publications"
+    url: /#-selected-publications
 
-  - title: "Honors and Awards"
-    url: "/#-honors-and-awards"
+  - title: "Field Work"
+    url: /#-field-deployment--media
 
-  - title: "Educations"
-    url: "/#-educations"
+  - title: "Education"
+    url: /#-education
 
-  - title: "Invited Talks"
-    url: "/#-invited-talks"
+  - title: "Awards"
+    url: /#-honors--awards
 
-  - title: "Internships"
-    url: "/#-internships"
+  - title: "CV"
+    url: /files/CV.pdf
