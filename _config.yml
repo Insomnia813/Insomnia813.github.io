@@ -1,163 +1,92 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
+# ==========================================================================
+#   网站基础信息
+# ==========================================================================
 
-# Site Settings
-title                    : "Lorem ipsum"
-description              : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. "
-repository               : "RayeRen/acad-homepage.github.io"
-google_scholar_stats_use_cdn : true
+title: "Yuer Gao's homepage"
+description: "Yuer Gao | Ph.D. Student at HKUST(GZ) | Embodied Underwater Intelligence, Marine Robotics, Active Perception, 3D Reconstruction"
 
-# google analytics
-google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
+# GitHub 仓库（仓库名要严格等于 username.github.io）
+repository: "Insomnia813/Insomnia813.github.io"
 
-# SEO Related
-google_site_verification :  # get google_site_verification from https://search.google.com/search-console/about
-bing_site_verification   :  # get bing_site_verification from https://www.bing.com/webmasters/about
-baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.baidu.com/login/index?u=/site/index
+url: "https://insomnia813.github.io"
+baseurl: ""
 
-# Site Author
+masthead_title: " "
+
+# ==========================================================================
+#   Google Scholar 自动抓取（强烈推荐开启）
+# ==========================================================================
+# 你的 Scholar ID 已经填好。剩下两步：
+# 1) 仓库 Settings → Secrets and variables → Actions → New secret
+#    Name = GOOGLE_SCHOLAR_ID, Value = PwHsHYgAAAAJ
+# 2) 仓库 Actions 选项卡 → 启用 workflow（首次需要手动 run）
+scholar_userid: "PwHsHYgAAAAJ"
+
+# ==========================================================================
+#   Google Analytics（可选）
+# ==========================================================================
+analytics:
+  provider: false
+  google:
+    tracking_id: "G-XXXXXXXXXX"
+
+# ==========================================================================
+#   SEO 验证（可选，没有也无所谓）
+# ==========================================================================
+google_site_verification: ""
+bing_site_verification: ""
+baidu_site_verification: ""
+
+# ==========================================================================
+#   作者信息（左侧名片栏）
+# ==========================================================================
 author:
-  name             : "Lorem ipsum"
-  avatar           : "images/android-chrome-512x512.png"
-  bio              : "Lorem ipsum College"
-  location         : "Beijing, China"
-  employer         :
-  pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
-  email            : "Lorem@ipsum.com"
-  researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           : # e.g., "github username"
-  google_plus      :
-  keybase          :
-  instagram        :
-  impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-  lastfm           :
-  linkedin         : # e.g., "linkedin username"
-  dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : # e.g., "https://orcid.org/xxxx"
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
-  tumblr           :
-  twitter          : 
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
-  wikipedia        :
+  name: "Yuer Gao"
+  # 头像：放一张 300x300 的 PNG/JPG 到 images/ 目录下，文件名建议 profile.png
+  avatar: "profile.png"
+  # 这一句是名片"标签"，研究身份导向（非简历导向）
+  bio: "Embodied Underwater Intelligence · Marine Robotics · Active Perception · 3D Reconstruction"
+  employer: "HKUST(Guangzhou)"
+  location: "Guangzhou, China"
 
+  # 联系方式 / 社交链接
+  email: "YOUR_EMAIL@hkust-gz.edu.cn"   # ← 填你的邮箱
+  googlescholar: "https://scholar.google.com/citations?user=PwHsHYgAAAAJ"
+  github: "Insomnia813"
+  twitter: ""        # 如果有 X/Twitter 填用户名（不带 @）
+  linkedin: ""       # linkedin.com/in/ 后面那段
+  orcid: ""          # 没注册的话可以去 orcid.org 免费注册一个
+  researchgate: ""
 
-# Reading Files
-include:
-  - .htaccess
-  - _pages
-  - files
-exclude:
-  - docs
-  - google_scholar_crawler
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - .github
-  - CHANGELOG
-  - Capfile
-  - Gemfile
-  - Gruntfile.js
-  - LICENSE
-  - README
-  - Rakefile
-  - assets/js/_main.js
-  - assets/js/plugins
-  - assets/js/vendor
-  - config
-  - gulpfile.js
-  - log
-  - node_modules
-  - package.json
-  - tmp
-  - vendor
-keep_files:
-  - .git
-  - .svn
-encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+  # 这些一般留空
+  pubmed: ""
+  wechat: ""
+  zhihu: ""
+  weibo: ""
+  bilibili: ""
+  youtube: ""
 
-
-# Conversion
+# ==========================================================================
+#   全站默认配置（不用改）
+# ==========================================================================
 markdown: kramdown
-highlighter: rouge
-lsi: false
-excerpt_separator: "\n\n"
-incremental: false
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+locale: "en-US"
+breadcrumbs: true
+words_per_minute: 160
+enable_copy_code_button: true
+search: true
 
-
-# Markdown Processing
-kramdown:
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
-
-# Defaults
 defaults:
-  # _pages
   - scope:
       path: ""
       type: pages
     values:
-      layout: default
+      layout: single
       author_profile: true
-
-
-# Sass/SCSS
-sass:
-  sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
-
-# Outputting
-permalink: /:categories/:title/
-timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-
-# Plugins
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jekyll-redirect-from
-# mimic GitHub Pages with --safe
-whitelist:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-
-
-# HTML Compression
-# - http://jch.penibelst.de/
-compress_html:
-  clippings: all
-  ignore:
-    envs: development
+      read_time: false
+      comments: false
+      share: false
+      related: false
+      show_date: false
+      classes: wide
