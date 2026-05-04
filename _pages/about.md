@@ -24,7 +24,7 @@ redirect_from:
 # 👋 About Me
 
 I am **Yuer Gao**, a Ph.D. student at [The Hong Kong University of Science and Technology (Guangzhou)](https://www.hkust-gz.edu.cn/),
-advised by [**Prof. ADVISOR_NAME**](https://ADVISOR_HOMEPAGE).
+advised by [**Prof. Yi Cai**](https://ADVISOR_HOMEPAGE).
 My research aims to enable autonomous robots to **perceive, understand, and interact with complex underwater environments**.
 
 I work at the intersection of **marine robotics**, **active perception**, **3D reconstruction**,
