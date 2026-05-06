@@ -35,7 +35,7 @@ baidu_site_verification: ""
 # ==========================================================================
 author:
   name: "Yuer Gao"
-  avatar: "images/profile.png"
+  avatar: "images/profile.jpg"
   bio: "Embodied Underwater Intelligence · Marine Robotics · Active Perception · 3D Reconstruction"
   employer: "HKUST(Guangzhou)"
   location: "Guangzhou, China"
@@ -44,9 +44,8 @@ author:
   email: "ygao438@connect.hkust-gz.edu.cn"   # ← 填你的邮箱
   googlescholar: "https://scholar.google.com/citations?user=PwHsHYgAAAAJ"
   github: "Insomnia813"
-  twitter: ""
   linkedin: ""
-  orcid: ""
+  orcid: "https://orcid.org/0000-0001-8004-123X"
   researchgate: ""
   pubmed:
   uri:
