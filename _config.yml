@@ -7,11 +7,7 @@ description: "Yuer Gao | Ph.D. Student at HKUST(GZ) | Embodied Underwater Intell
 
 # GitHub 仓库（仓库名要严格等于 username.github.io）
 repository: "Insomnia813/Insomnia813.github.io"
-
-url: "https://insomnia813.github.io"
-baseurl: ""
-
-masthead_title: " "
+google_scholar_stats_use_cdn: true
 
 # ==========================================================================
 #   Google Scholar 自动抓取（强烈推荐开启）
@@ -25,13 +21,10 @@ scholar_userid: "PwHsHYgAAAAJ"
 # ==========================================================================
 #   Google Analytics（可选）
 # ==========================================================================
-analytics:
-  provider: false
-  google:
-    tracking_id: "G-XXXXXXXXXX"
+google_analytics_id:  # get from https://analytics.google.com/analytics/
 
 # ==========================================================================
-#   SEO 验证（可选，没有也无所谓）
+#   SEO 验证（可选）
 # ==========================================================================
 google_site_verification: ""
 bing_site_verification: ""
@@ -42,51 +35,139 @@ baidu_site_verification: ""
 # ==========================================================================
 author:
   name: "Yuer Gao"
-  # 头像：放一张 300x300 的 PNG/JPG 到 images/ 目录下，文件名建议 profile.png
-  avatar: "profile.png"
-  # 这一句是名片"标签"，研究身份导向（非简历导向）
+  avatar: "images/profile.png"
   bio: "Embodied Underwater Intelligence · Marine Robotics · Active Perception · 3D Reconstruction"
   employer: "HKUST(Guangzhou)"
   location: "Guangzhou, China"
 
-  # 联系方式 / 社交链接
-  email: "YOUR_EMAIL@hkust-gz.edu.cn"   # ← 填你的邮箱
+  # 联系方式 / 社交链接（没有的留空即可）
+  email: "ygao438@connect.hkust-gz.edu.cn"   # ← 填你的邮箱
   googlescholar: "https://scholar.google.com/citations?user=PwHsHYgAAAAJ"
   github: "Insomnia813"
-  twitter: ""        # 如果有 X/Twitter 填用户名（不带 @）
-  linkedin: ""       # linkedin.com/in/ 后面那段
-  orcid: ""          # 没注册的话可以去 orcid.org 免费注册一个
+  twitter: ""
+  linkedin: ""
+  orcid: ""
   researchgate: ""
-
-  # 这些一般留空
-  pubmed: ""
-  wechat: ""
-  zhihu: ""
-  weibo: ""
-  bilibili: ""
-  youtube: ""
+  pubmed:
+  uri:
+  bitbucket:
+  codepen:
+  dribbble:
+  flickr:
+  facebook:
+  foursquare:
+  google_plus:
+  keybase:
+  instagram:
+  impactstory:
+  lastfm:
+  dblp:
+  pinterest:
+  soundcloud:
+  stackoverflow:
+  steam:
+  tumblr:
+  vine:
+  weibo:
+  xing:
+  youtube:
+  wikipedia:
 
 # ==========================================================================
-#   全站默认配置（不用改）
+#   ★ 关键：读取文件配置（上次漏掉导致首页不显示）
+# ==========================================================================
+include:
+  - .htaccess
+  - _pages
+  - files
+exclude:
+  - docs
+  - google_scholar_crawler
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - .github
+  - CHANGELOG
+  - Capfile
+  - Gemfile
+  - Gruntfile.js
+  - LICENSE
+  - README
+  - Rakefile
+  - assets/js/_main.js
+  - assets/js/plugins
+  - assets/js/vendor
+  - config
+  - gulpfile.js
+  - log
+  - node_modules
+  - package.json
+  - tmp
+  - vendor
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# ==========================================================================
+#   Markdown / 转换设置
 # ==========================================================================
 markdown: kramdown
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-locale: "en-US"
-breadcrumbs: true
-words_per_minute: 160
-enable_copy_code_button: true
-search: true
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
 
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# ==========================================================================
+#   页面默认值（注意：layout 必须是 default，不是 single）
+# ==========================================================================
 defaults:
   - scope:
       path: ""
       type: pages
     values:
-      layout: single
+      layout: default
       author_profile: true
-      read_time: false
-      comments: false
-      share: false
-      related: false
-      show_date: false
-      classes: wide
+
+# ==========================================================================
+#   Sass / 输出 / 插件
+# ==========================================================================
+sass:
+  sass_dir: _sass
+  style: compressed
+
+permalink: /:categories/:title/
+timezone: Asia/Shanghai
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-redirect-from
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+
+# HTML Compression
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
