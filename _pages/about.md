@@ -202,7 +202,7 @@ Specifically, I work on **disturbance-aware motion planning**, **robust underwat
 > <!-- ![](../images/xaut_logo.png) --> **Xi'an University of Technology**
 >
 > > * **M.S. in Control Science and Engineering** ——— *2020 – 2023*
-> >   GPA: 4.4 / 5.0
+> >   GPA: 4.4 / 5.0 &nbsp;·&nbsp; Supervised by [Prof. Xiaohui Zhang](https://baike.baidu.com/item/%E5%BC%A0%E6%99%93%E6%99%96/57166768)
 
 > <!-- ![](../images/xaut_logo.png) --> **Xi'an University of Technology**
 >
