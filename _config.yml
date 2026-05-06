@@ -34,9 +34,9 @@ baidu_site_verification: ""
 #   作者信息（左侧名片栏）
 # ==========================================================================
 author:
-  name: "Yuer Gao"
+  # name: "Yuer Gao"
   avatar: "images/profile.jpg"
-  bio: "Embodied Underwater Intelligence · Marine Robotics · Active Perception · 3D Reconstruction"
+ #  bio: "Embodied Underwater Intelligence · Marine Robotics · Active Perception · 3D Reconstruction"
   employer: "HKUST(Guangzhou)"
   location: "Guangzhou, China"
 
