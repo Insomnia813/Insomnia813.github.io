@@ -99,7 +99,7 @@ Specifically, I work on **disturbance-aware motion planning**, **robust underwat
 
 ### 🌊 Underwater Navigation in Ocean Currents &nbsp;<small>· JOE Under Review</small>
 
-[teaser](../images/navigation_teaser.png) 
+[teaser](../images/navigation_teaser.png)
 
 * **Bidirectionally coupled global–local path planning** for 3D underwater navigation that accounts for
   ocean current disturbances. The global planner and local planner exchange information bidirectionally,
@@ -175,39 +175,38 @@ Specifically, I work on **disturbance-aware motion planning**, **robust underwat
 
 # 🌊 Field Deployment & Media
 
-
 <p align="center">
   <img src="../images/deployment_pool.jpg" width="32%" alt="Pool experiment"/>
   &nbsp;
   <img src="../images/deployment_field.png" width="32%" alt="Coral deployment"/>
   &nbsp;
   <img src="../images/deployment_rov.png" width="32%" alt="ROV platform"/>
+</p>
 
 * **Pool experiments at HKUST(GZ)** — testing perception-planning-control pipelines in a controlled tank with real ROV hardware.
 * **440 real-robot trials** — disturbance-aware reconstruction validated under visually degraded and hydrodynamically challenging conditions.
 * **ROS-based platform** — integrated state estimation, localization, and motion planning modules on an 8-thruster over-actuated ROV.
 
-*Photos coming soon — preparing deployment visuals from recent experiments.*
-
 
 # 🎓 Education
 
-<!-- 把对应学校的 logo 放到 images/ 目录下，取消注释 img 标签 -->
+<div style="margin-bottom:16px;">
+<strong>The Hong Kong University of Science and Technology (Guangzhou)</strong><br/>
+&emsp;Ph.D. in Smart Manufacturing — 2023 – Present (Expected Dec. 2026)<br/>
+&emsp;GPA: 3.5 / 4.0 &nbsp;·&nbsp; Supervised by <a href="https://sites.google.com/view/hkust-gz-yicai/home">Prof. Yi Cai</a>
+</div>
 
-> <!-- ![](../images/hkust_gz_logo.png) --> **The Hong Kong University of Science and Technology (Guangzhou)**
->
-> > * **Ph.D. in Smart Manufacturing** ——— *2023 – Present (Expected Dec. 2026)*
-> >   GPA: 3.5 / 4.0 &nbsp;·&nbsp; Supervised by [Prof. Yi Cai](https://sites.google.com/view/hkust-gz-yicai/home)
+<div style="margin-bottom:16px;">
+<strong>Xi'an University of Technology</strong><br/>
+&emsp;M.S. in Control Science and Engineering — 2020 – 2023<br/>
+&emsp;GPA: 4.4 / 5.0 &nbsp;·&nbsp; Supervised by <a href="https://baike.baidu.com/item/%E5%BC%A0%E6%99%93%E6%99%96/57166768">Prof. Xiaohui Zhang</a>
+</div>
 
-> <!-- ![](../images/xaut_logo.png) --> **Xi'an University of Technology**
->
-> > * **M.S. in Control Science and Engineering** ——— *2020 – 2023*
-> >   GPA: 4.4 / 5.0 &nbsp;·&nbsp; Supervised by [Prof. Xiaohui Zhang](https://baike.baidu.com/item/%E5%BC%A0%E6%99%93%E6%99%96/57166768)
-
-> <!-- ![](../images/xaut_logo.png) --> **Xi'an University of Technology**
->
-> > * **B.E. in Automation** ——— *2017 – 2021*
-> >   GPA: 4.2 / 5.0 &nbsp;·&nbsp; Top 3%
+<div style="margin-bottom:16px;">
+<strong>Xi'an University of Technology</strong><br/>
+&emsp;B.E. in Automation — 2017 – 2021<br/>
+&emsp;GPA: 4.2 / 5.0 &nbsp;·&nbsp; Top 3%
+</div>
 
 
 # 🏅 Honors & Awards
@@ -229,7 +228,3 @@ Specifically, I work on **disturbance-aware motion planning**, **robust underwat
 ### Teaching
 
 * Teaching Assistant — *UCMP 6010: Cross-disciplinary Research Methods*, HKUST(GZ)
-
-### Mentoring
-
-* Evaluator / Mentor — **Red Bird Challenge**, HKUST(GZ): Selected and evaluated prospective MPhil students during a two-week intensive selection camp.
