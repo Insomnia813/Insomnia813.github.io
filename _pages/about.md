@@ -17,7 +17,7 @@ redirect_from:
 
 I am **Yuer Gao (高玉儿)**, a Ph.D. Candidate in Smart Manufacturing at
 [The Hong Kong University of Science and Technology (Guangzhou)](https://www.hkust-gz.edu.cn/),
-advised by [**Prof. Yi Cai**](https://sites.google.com/view/hkust-gz-yicai/home)and co-advised by [**Prof. Jun Ma**](https://personal.hkust-gz.edu.cn/junma/index.html).
+advised by [**Prof. Yi Cai**](https://sites.google.com/view/hkust-gz-yicai/home) and co-advised by [**Prof. Jun Ma**](https://personal.hkust-gz.edu.cn/junma/index.html).
 
 My research focuses on **marine robotics and underwater autonomy** — I build systems that let robots
 **perceive, plan, and act** in visually degraded, hydrodynamically complex underwater environments.
