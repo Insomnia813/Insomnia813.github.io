@@ -31,9 +31,8 @@ Specifically, I work on **disturbance-aware motion planning**, **robust underwat
 
 <!-- ↓ Hero 视觉：替换为你最强的水下机器人 / 重建画面（GIF 或 JPG）
      建议尺寸：宽度 ~900px，GIF < 3MB -->
-<!--
 <p align="center">
-  <img src="../images/hero_underwater.gif" alt="Underwater robot deployment" width="100%"/>
+  <img src="../images/hero_underwater.png" alt="Underwater robot deployment" width="100%"/>
   <br>
   <em>Disturbance-aware underwater reconstruction with an over-actuated ROV.</em>
 </p>
@@ -62,7 +61,7 @@ Specifically, I work on **disturbance-aware motion planning**, **robust underwat
 
 ### 🎯 Disturbance-Aware Underwater Autonomy &nbsp;<small>· TMECH Under Review + TASE Under Review</small>
 
-<!-- ![teaser](../images/disturbance_aware_teaser.gif) -->
+[teaser](../images/disturbance_aware_teaser.png)
 
 * Over-actuated underwater vehicles (e.g., 8-thruster ROVs) have **redundant actuation** — we exploit this redundancy
   to suppress sediment resuspension and thruster-induced turbulence during close-range inspection, rather than wasting it.
@@ -77,8 +76,7 @@ Specifically, I work on **disturbance-aware motion planning**, **robust underwat
 ---
 
 ### 🔬 Real-Time Underwater Perception &nbsp;<small>· RA-L 2025 + CASE 2025</small>
-
-<!-- ![teaser](../images/perception_teaser.gif) -->
+[teaser](../images/perception_teaser.jpg)
 
 * **Vision–Optical Fusion (RA-L 2025):** A tightly coupled framework with latent-variable motion models for real-time
   underwater state estimation — achieving **5.65 mm position RMSE** at **62 FPS**, a **6.4× improvement** over vision-only baselines.
@@ -91,7 +89,7 @@ Specifically, I work on **disturbance-aware motion planning**, **robust underwat
 
 ### 🪸 CoralVLM &nbsp;<small>· Vision-Language for Coral Reef Inspection · RA-L Submitted</small>
 
-<!-- ![teaser](../images/coralvlm_teaser.gif) -->
+[teaser](../images/coralvlm_teaser.png)
 
 * A **task-oriented vision-language benchmark** for underwater embodied coral reef inspection.
   CoralVLM pairs structured visual reasoning with actionable task planning, bridging the gap between
@@ -102,7 +100,7 @@ Specifically, I work on **disturbance-aware motion planning**, **robust underwat
 
 ### 🌊 Underwater Navigation in Ocean Currents &nbsp;<small>· JOE Under Review</small>
 
-<!-- ![teaser](../images/navigation_teaser.gif) -->
+[teaser](../images/navigation_teaser.png) 
 
 * **Bidirectionally coupled global–local path planning** for 3D underwater navigation that accounts for
   ocean current disturbances. The global planner and local planner exchange information bidirectionally,
@@ -178,16 +176,14 @@ Specifically, I work on **disturbance-aware motion planning**, **robust underwat
 
 # 🌊 Field Deployment & Media
 
-<!-- 准备好照片后取消注释。建议放 3 张水下部署相关照片。 -->
-<!--
+
 <p align="center">
   <img src="../images/deployment_pool.jpg" width="32%" alt="Pool experiment"/>
   &nbsp;
-  <img src="../images/deployment_field.jpg" width="32%" alt="Field deployment"/>
+  <img src="../images/deployment_field.jpg" width="32%" alt="Coral deployment"/>
   &nbsp;
   <img src="../images/deployment_rov.jpg" width="32%" alt="ROV platform"/>
-</p>
--->
+
 
 * **Pool experiments at HKUST(GZ)** — testing perception-planning-control pipelines in a controlled tank with real ROV hardware.
 * **440 real-robot trials** — disturbance-aware reconstruction validated under visually degraded and hydrodynamically challenging conditions.
