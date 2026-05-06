@@ -15,7 +15,7 @@ redirect_from:
 
 # 👋 About Me
 
-I am **Yuer Gao (高宇儿)**, a Ph.D. student in Smart Manufacturing at
+I am **Yuer Gao (高玉儿)**, a Ph.D. student in Smart Manufacturing at
 [The Hong Kong University of Science and Technology (Guangzhou)](https://www.hkust-gz.edu.cn/),
 advised by [**Prof. Yi Cai**](https://sites.google.com/view/hkust-gz-yicai/home).
 
@@ -46,11 +46,11 @@ Specifically, I work on **disturbance-aware motion planning**, **robust underwat
 * **2026.05**: 📝 **Operator-in-the-loop coral inspection** with shared autonomy under review at *IEEE TASE*.
 * **2026.04**: 📝 **Bidirectionally coupled path planning** for 3D underwater navigation under review at *IEEE JOE*.
 * **2026.01**: 📝 **Disturbance-aware motion planning** for over-actuated ROVs under review at *IEEE/ASME TMECH*.
-* **2025**: 🎉 Paper on **real-time underwater pose estimation** via vision–optical fusion accepted by **IEEE RA-L**!
-* **2025**: 📤 **MULoc** (robust monocular underwater localization) accepted by **IEEE CASE 2025**.
-* **2024**: 🏆 **Model Mark Competition — Third Prize**, HKUST(GZ), Team Leader.
-* **2024**: 🎤 Presented **minimum-snap trajectory optimization** for underwater manipulators at **ICARM 2024**.
-* **2023**: 🚀 Started my Ph.D. at HKUST(GZ), Cyber-physical Interaction Lab.
+* **2025.07**: 🎉 Paper on **real-time underwater pose estimation** via vision–optical fusion accepted by **IEEE RA-L**!
+* **2025.05**: 📤 **MULoc** (robust monocular underwater localization) accepted by **IEEE CASE 2025**.
+* **2024.11**: 🏆 **Model Mark Competition — Third Prize**, HKUST(GZ), Team Leader.
+* **2024.07**: 🎤 Presented **minimum-snap trajectory optimization** for underwater manipulators at **ICARM 2024**.
+* **2023.09**: 🚀 Started my Ph.D. at HKUST(GZ), Cyber-physical Interaction Lab.
 
 
 # 🚀 Selected Projects
