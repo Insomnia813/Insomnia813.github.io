@@ -44,7 +44,7 @@ Specifically, I work on **disturbance-aware motion planning**, **robust underwat
 * **2026.05**: 📝 **Operator-in-the-loop coral inspection** with shared autonomy under review at *IEEE TASE*.
 * **2026.04**: 📝 **Bidirectionally coupled path planning** for 3D underwater navigation under review at *IEEE JOE*.
 * **2026.01**: 📝 **Disturbance-aware motion planning** for over-actuated ROVs under review at *IEEE/ASME TMECH*.
-* **2025.07**: 🎉 Paper on **real-time underwater pose estimation** via vision–optical fusion accepted by **IEEE RA-L**!
+* **2025.11**: 🎉 Paper on **Real-time underwater pose estimation** via vision–optical fusion accepted by **IEEE RA-L**!
 * **2025.05**: 🎉 **MULoc** (robust monocular underwater localization) accepted by **IEEE CASE 2025**!
 * **2024.11**: 🏆 **Model Mark Competition — Third Prize**, HKUST(GZ), Team Leader.
 * **2024.07**: 🎤 Presented **minimum-snap trajectory optimization** for underwater manipulators at **ICARM 2024**!
