@@ -183,7 +183,6 @@ Specifically, I work on **disturbance-aware motion planning**, **robust underwat
   &nbsp;
   <img src="../images/deployment_rov.jpg" width="32%" alt="ROV platform"/>
 
-
 * **Pool experiments at HKUST(GZ)** — testing perception-planning-control pipelines in a controlled tank with real ROV hardware.
 * **440 real-robot trials** — disturbance-aware reconstruction validated under visually degraded and hydrodynamically challenging conditions.
 * **ROS-based platform** — integrated state estimation, localization, and motion planning modules on an 8-thruster over-actuated ROV.
