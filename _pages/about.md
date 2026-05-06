@@ -179,9 +179,9 @@ Specifically, I work on **disturbance-aware motion planning**, **robust underwat
 <p align="center">
   <img src="../images/deployment_pool.jpg" width="32%" alt="Pool experiment"/>
   &nbsp;
-  <img src="../images/deployment_field.jpg" width="32%" alt="Coral deployment"/>
+  <img src="../images/deployment_field.png" width="32%" alt="Coral deployment"/>
   &nbsp;
-  <img src="../images/deployment_rov.jpg" width="32%" alt="ROV platform"/>
+  <img src="../images/deployment_rov.png" width="32%" alt="ROV platform"/>
 
 * **Pool experiments at HKUST(GZ)** — testing perception-planning-control pipelines in a controlled tank with real ROV hardware.
 * **440 real-robot trials** — disturbance-aware reconstruction validated under visually degraded and hydrodynamically challenging conditions.
