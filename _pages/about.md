@@ -198,7 +198,7 @@ Specifically, I work on **disturbance-aware motion planning**, **robust underwat
 
 <div style="margin-bottom:16px;">
 <strong>Xi'an University of Technology</strong><br/>
-&emsp;M.S. in Control Science and Engineering — 2020 – 2023<br/>
+&emsp;M.S. in Control Science and Engineering — 2021 – 2023<br/>
 &emsp;GPA: 4.4 / 5.0 &nbsp;·&nbsp; Supervised by <a href="https://baike.baidu.com/item/%E5%BC%A0%E6%99%93%E6%99%96/57166768">Prof. Xiaohui Zhang</a>
 </div>
 
