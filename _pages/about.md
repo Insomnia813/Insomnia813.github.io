@@ -17,7 +17,7 @@ redirect_from:
 
 I am **Yuer Gao (高玉儿)**, a Ph.D. Candidate in Smart Manufacturing at
 [The Hong Kong University of Science and Technology (Guangzhou)](https://www.hkust-gz.edu.cn/),
-advised by [**Prof. Yi Cai**](https://sites.google.com/view/hkust-gz-yicai/home).
+advised by [**Prof. Yi Cai**](https://sites.google.com/view/hkust-gz-yicai/home)and co-advised by [**Prof. Jun Ma**](https://personal.hkust-gz.edu.cn/junma/index.html).
 
 My research focuses on **marine robotics and underwater autonomy** — I build systems that let robots
 **perceive, plan, and act** in visually degraded, hydrodynamically complex underwater environments.
@@ -40,7 +40,7 @@ Specifically, I work on **disturbance-aware motion planning**, **robust underwat
 
 # 📢 News
 
-* **2026.05**: 📤 Submitted **CoralVLM** (vision-language benchmark for coral reef inspection) to *IEEE RA-L*.
+* **2026.05**: 📤 Released **CoralVLM, a task-oriented vision-language benchmark** for coral reef inspection.
 * **2026.05**: 📝 **Operator-in-the-loop coral inspection** with shared autonomy under review at *IEEE TASE*.
 * **2026.04**: 📝 **Bidirectionally coupled path planning** for 3D underwater navigation under review at *IEEE JOE*.
 * **2026.01**: 📝 **Disturbance-aware motion planning** for over-actuated ROVs under review at *IEEE/ASME TMECH*.
