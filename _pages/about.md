@@ -32,11 +32,10 @@ Specifically, I work on **disturbance-aware motion planning**, **robust underwat
 <!-- ↓ Hero 视觉：替换为你最强的水下机器人 / 重建画面（GIF 或 JPG）
      建议尺寸：宽度 ~900px，GIF < 3MB -->
 <p align="center">
-  <img src="../images/hero_underwater.png" alt="Underwater robot deployment" width="100%"/>
+  <img src="../images/hero_underwater.png" alt="Underwater robot deployment" width="60%"/>
   <br>
   <em>Disturbance-aware underwater reconstruction with an over-actuated ROV.</em>
 </p>
--->
 
 
 # 📢 News
