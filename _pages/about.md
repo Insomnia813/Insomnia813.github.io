@@ -90,7 +90,7 @@ Specifically, I work on **disturbance-aware motion planning**, **robust underwat
 * **MULoc (CASE 2025):** A monocular localization framework fusing RGB and geometric depth cues for robust tracking
   under turbidity — **92% tracking success** and **< 1% trajectory-length localization error** at 25 FPS.
 * `Yuer Gao`, T. Xu, **Yi Cai**.
-  &nbsp;[RA-L 2025] [CASE 2025]
+  &nbsp;[RA-L 2025](https://ieeexplore.ieee.org/abstract/document/11282975) [CASE 2025](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11163891)
 <p align="center">
   <img src="../images/33.tif" alt="A monocular localization framework_teaser" width="60%"/>
   <br>
