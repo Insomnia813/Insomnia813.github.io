@@ -61,7 +61,11 @@ Specifically, I work on **disturbance-aware motion planning**, **robust underwat
 ### 🎯 Disturbance-Aware Underwater Autonomy &nbsp;<small>· TMECH Under Review + TASE Under Review</small>
 
 [teaser](../images/disturbance_aware_teaser.png)
-
+<p align="center">
+  <img src="../images/1.tif" alt="Disturbance_aware_teaser" width="60%"/>
+  <br>
+  <em>Disturbance-aware underwater reconstruction with an over-actuated ROV.</em>
+</p>
 * Over-actuated underwater vehicles (e.g., 8-thruster ROVs) have **redundant actuation** — we exploit this redundancy
   to suppress sediment resuspension and thruster-induced turbulence during close-range inspection, rather than wasting it.
   Our redundancy-resolving planner reduces target-region particle velocity by **67%** and improves reconstruction RMSE
@@ -71,7 +75,11 @@ Specifically, I work on **disturbance-aware motion planning**, **robust underwat
   active 3D anchoring, and disturbance-aware control.
 * `Yuer Gao`, T. Xu, Q. Liu, J. Luo, **Yi Cai**.
   &nbsp;[TMECH Under Review] [TASE Under Review]
-
+<p align="center">
+  <img src="../images/2.tif" alt="Operator-in-the-loop_teaser" width="60%"/>
+  <br>
+  <em>Disturbance-aware underwater reconstruction with an over-actuated ROV.</em>
+</p>
 ---
 
 ### 🔬 Real-Time Underwater Perception &nbsp;<small>· RA-L 2025 + CASE 2025</small>
@@ -83,7 +91,11 @@ Specifically, I work on **disturbance-aware motion planning**, **robust underwat
   under turbidity — **92% tracking success** and **< 1% trajectory-length localization error** at 25 FPS.
 * `Yuer Gao`, T. Xu, **Yi Cai**.
   &nbsp;[RA-L 2025] [CASE 2025]
-
+<p align="center">
+  <img src="../images/3.tif" alt="A monocular localization framework_teaser" width="60%"/>
+  <br>
+  <em>Disturbance-aware underwater reconstruction with an over-actuated ROV.</em>
+</p>
 ---
 
 ### 🪸 CoralVLM &nbsp;<small>· Vision-Language for Coral Reef Inspection · RA-L Submitted</small>
