@@ -31,7 +31,7 @@ Specifically, I work on **disturbance-aware motion planning**, **robust underwat
 
 [Task-Oriented Underwater Coral Inspection: From Human Intent to Low-Disturbance Robotic Execution]
 [Vision-language understanding, active 3D anchoring, real-time localization, and disturbance-aware autonomy for marine ecosystem monitoring.](images/system.png)
-
+Key results include 2,478 annotated CoralVLM records, 4.36/5.0 human-rated quality, 67% reduction in target-region disturbance, 98.5% reconstruction success, and 5.65 mm real-time localization accuracy at 62 FPS.
 <!-- ↓ Hero 视觉：替换为你最强的水下机器人 / 重建画面（GIF 或 JPG）
      建议尺寸：宽度 ~900px，GIF < 3MB -->
 <p align="center">
@@ -208,9 +208,6 @@ Specifically, I work on **disturbance-aware motion planning**, **robust underwat
 **Task-Oriented Underwater Coral Inspection: From Human Intent to Low-Disturbance Robotic Execution**
 
 This poster summarizes my recent work on underwater embodied inspection, integrating CoralVLM-based task understanding, operator-guided visual grounding, active 3D anchoring, real-time underwater pose estimation, and disturbance-aware robotic execution for coral reef monitoring.
-
-Key results include 2,478 annotated CoralVLM records, 4.36/5.0 human-rated quality, 67% reduction in target-region disturbance, 98.5% reconstruction success, and 5.65 mm real-time localization accuracy at 62 FPS.
-
 ![Research showcase poster](images/poster_coral_inspection_preview.png)
 
 # 🎓 Education
