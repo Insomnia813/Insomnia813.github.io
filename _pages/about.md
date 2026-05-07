@@ -29,6 +29,9 @@ Specifically, I work on **disturbance-aware motion planning**, **robust underwat
 🎓 [**Google Scholar**](https://scholar.google.com/citations?user=PwHsHYgAAAAJ) &nbsp;·&nbsp;
 💻 [**GitHub**](https://github.com/Insomnia813)
 
+[Task-Oriented Underwater Coral Inspection: From Human Intent to Low-Disturbance Robotic Execution]
+[Vision-language understanding, active 3D anchoring, real-time localization, and disturbance-aware autonomy for marine ecosystem monitoring.](images/system.png)
+
 <!-- ↓ Hero 视觉：替换为你最强的水下机器人 / 重建画面（GIF 或 JPG）
      建议尺寸：宽度 ~900px，GIF < 3MB -->
 <p align="center">
@@ -108,7 +111,7 @@ Specifically, I work on **disturbance-aware motion planning**, **robust underwat
 * `Yuer Gao`, Y. Zhao, **Yi Cai**. *Submitted to IEEE RA-L*.
 [Research showcase poster: AI-driven underwater inspection for coral reef conservation]
 [AI-driven underwater inspection poster](images/poster_coral_inspection_preview.png)
----
+
 
 ### 🌊 Underwater Navigation in Ocean Currents &nbsp;<small>· JOE Under Review</small>
 
