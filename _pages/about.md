@@ -202,12 +202,16 @@ Specifically, I work on **disturbance-aware motion planning**, **robust underwat
 * **Pool experiments at HKUST(GZ)** — testing perception-planning-control pipelines in a controlled tank with real ROV hardware.
 * **440 real-robot trials** — disturbance-aware reconstruction validated under visually degraded and hydrodynamically challenging conditions.
 * **ROS-based platform** — integrated state estimation, localization, and motion planning modules on an 8-thruster over-actuated ROV.
-### Research Showcase Poster
 
-**AI-Driven Underwater Intelligent Inspection for Coral Reef Conservation**  
-Presented at the 6th CAAI Workshop on Social Computing & Social Intelligence, HKUST(GZ), 2026.
-[AI-driven underwater inspection poster](images/poster_coral_inspection_preview.png)
+### 🪸 Research Showcase: Coral Reef Inspection
 
+**Task-Oriented Underwater Coral Inspection: From Human Intent to Low-Disturbance Robotic Execution**
+
+This poster summarizes my recent work on underwater embodied inspection, integrating CoralVLM-based task understanding, operator-guided visual grounding, active 3D anchoring, real-time underwater pose estimation, and disturbance-aware robotic execution for coral reef monitoring.
+
+Key results include 2,478 annotated CoralVLM records, 4.36/5.0 human-rated quality, 67% reduction in target-region disturbance, 98.5% reconstruction success, and 5.65 mm real-time localization accuracy at 62 FPS.
+
+![Research showcase poster](images/poster_coral_inspection_preview.png)
 
 # 🎓 Education
 
