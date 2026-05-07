@@ -106,7 +106,8 @@ Specifically, I work on **disturbance-aware motion planning**, **robust underwat
   CoralVLM pairs structured visual reasoning with actionable task planning, bridging the gap between
   general-purpose VLMs and the demands of marine ecosystem monitoring.
 * `Yuer Gao`, Y. Zhao, **Yi Cai**. *Submitted to IEEE RA-L*.
-
+[Research showcase poster: AI-driven underwater inspection for coral reef conservation]
+[AI-driven underwater inspection poster](images/poster_coral_inspection_preview.png)
 ---
 
 ### 🌊 Underwater Navigation in Ocean Currents &nbsp;<small>· JOE Under Review</small>
@@ -198,7 +199,12 @@ Specifically, I work on **disturbance-aware motion planning**, **robust underwat
 * **Pool experiments at HKUST(GZ)** — testing perception-planning-control pipelines in a controlled tank with real ROV hardware.
 * **440 real-robot trials** — disturbance-aware reconstruction validated under visually degraded and hydrodynamically challenging conditions.
 * **ROS-based platform** — integrated state estimation, localization, and motion planning modules on an 8-thruster over-actuated ROV.
+### Research Showcase Poster
 
+**AI-Driven Underwater Intelligent Inspection for Coral Reef Conservation**  
+Presented at the 6th CAAI Workshop on Social Computing & Social Intelligence, HKUST(GZ), 2026.
+
+![AI-driven underwater inspection poster](images/poster_coral_inspection_preview.png)
 
 # 🎓 Education
 
