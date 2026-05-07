@@ -206,8 +206,8 @@ Specifically, I work on **disturbance-aware motion planning**, **robust underwat
 
 **AI-Driven Underwater Intelligent Inspection for Coral Reef Conservation**  
 Presented at the 6th CAAI Workshop on Social Computing & Social Intelligence, HKUST(GZ), 2026.
+[AI-driven underwater inspection poster](images/poster_coral_inspection_preview.png)
 
-![AI-driven underwater inspection poster](images/poster_coral_inspection_preview.png)
 
 # 🎓 Education
 
