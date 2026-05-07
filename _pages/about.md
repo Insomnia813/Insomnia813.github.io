@@ -62,7 +62,7 @@ Specifically, I work on **disturbance-aware motion planning**, **robust underwat
 
 [teaser](../images/disturbance_aware_teaser.png)
 <p align="center">
-  <img src="../images/1.gif" alt="Disturbance_aware_teaser" width="60%"/>
+  <img src="../images/11.gif" alt="Disturbance_aware_teaser" width="60%"/>
   <br>
   <em>Disturbance-aware underwater reconstruction with an over-actuated ROV.</em>
 </p>
@@ -78,7 +78,7 @@ Specifically, I work on **disturbance-aware motion planning**, **robust underwat
 <p align="center">
   <img src="../images/22.gif" alt="Operator-in-the-loop_teaser" width="60%"/>
   <br>
-  <em>Disturbance-aware underwater reconstruction with an over-actuated ROV.</em>
+  <em>A complementary shared-autonomy framework enables operator-in-the-loop coral inspection.</em>
 </p>
 ---
 
@@ -94,7 +94,7 @@ Specifically, I work on **disturbance-aware motion planning**, **robust underwat
 <p align="center">
   <img src="../images/33.gif" alt="A monocular localization framework_teaser" width="60%"/>
   <br>
-  <em>Disturbance-aware underwater reconstruction with an over-actuated ROV.</em>
+  <em>A monocular localization framework fusing RGB and geometric depth cues for robust tracking with an our-designed ROV.</em>
 </p>
 ---
 
