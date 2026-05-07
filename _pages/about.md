@@ -92,7 +92,7 @@ Specifically, I work on **disturbance-aware motion planning**, **robust underwat
 * `Yuer Gao`, T. Xu, **Yi Cai**.
   &nbsp;[RA-L 2025] [CASE 2025]
 <p align="center">
-  <img src="../images/3.tif" alt="A monocular localization framework_teaser" width="60%"/>
+  <img src="../images/33.tif" alt="A monocular localization framework_teaser" width="60%"/>
   <br>
   <em>Disturbance-aware underwater reconstruction with an over-actuated ROV.</em>
 </p>
