@@ -62,7 +62,7 @@ Specifically, I work on **disturbance-aware motion planning**, **robust underwat
 
 [teaser](../images/disturbance_aware_teaser.png)
 <p align="center">
-  <img src="../images/1.tif" alt="Disturbance_aware_teaser" width="60%"/>
+  <img src="../images/1.gif" alt="Disturbance_aware_teaser" width="60%"/>
   <br>
   <em>Disturbance-aware underwater reconstruction with an over-actuated ROV.</em>
 </p>
@@ -76,7 +76,7 @@ Specifically, I work on **disturbance-aware motion planning**, **robust underwat
 * `Yuer Gao`, T. Xu, Q. Liu, J. Luo, **Yi Cai**.
   &nbsp;[TMECH Under Review] [TASE Under Review]
 <p align="center">
-  <img src="../images/2.tif" alt="Operator-in-the-loop_teaser" width="60%"/>
+  <img src="../images/22.gif" alt="Operator-in-the-loop_teaser" width="60%"/>
   <br>
   <em>Disturbance-aware underwater reconstruction with an over-actuated ROV.</em>
 </p>
@@ -92,7 +92,7 @@ Specifically, I work on **disturbance-aware motion planning**, **robust underwat
 * `Yuer Gao`, T. Xu, **Yi Cai**.
   &nbsp;[RA-L 2025](https://ieeexplore.ieee.org/abstract/document/11282975) [CASE 2025](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11163891)
 <p align="center">
-  <img src="../images/33.tif" alt="A monocular localization framework_teaser" width="60%"/>
+  <img src="../images/33.gif" alt="A monocular localization framework_teaser" width="60%"/>
   <br>
   <em>Disturbance-aware underwater reconstruction with an over-actuated ROV.</em>
 </p>
