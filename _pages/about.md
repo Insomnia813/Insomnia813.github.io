@@ -127,12 +127,12 @@ Key results include 2,478 annotated CoralVLM records, 4.36/5.0 human-rated quali
 * To bridge simulation and real-world deployment, I developed a **ROV ground station and control stack** integrating real-time video streaming, telemetry visualization, depth and attitude monitoring, trajectory execution, experiment recording, and multiple autonomous motion modes for our over-actuated ROV platform.
 
 <p align="center">
-  <img src="../images/rov_ground_station.png" width="90%" alt="ROV ground station for real-robot experiments"/>
+  <img src="../images/rov_ground_station.png" width="60%" alt="ROV ground station for real-robot experiments"/>
   <br>
   <em>Custom ROV ground station for real-time control, telemetry, video streaming, and autonomous experiment execution.</em>
 </p>
 
-**Research infrastructure:** NVIDIA Isaac Sim · ROS/ROS2 · Python · Real-time ROV control · Simulation-to-real deployment
+**Research infrastructure:** NVIDIA Isaac Sim · Python · Real-time ROV control · Simulation-to-real deployment
 
 ### 🌊 Underwater Navigation in Ocean Currents &nbsp;<small>· JOE Under Review</small>
 
@@ -221,8 +221,7 @@ Key results include 2,478 annotated CoralVLM records, 4.36/5.0 human-rated quali
 
 * **Pool experiments at HKUST(GZ)** — testing perception-planning-control pipelines in a controlled tank with real ROV hardware.
 * **440 real-robot trials** — disturbance-aware reconstruction validated under visually degraded and hydrodynamically challenging conditions.
-* **ROS-based platform** — integrated state estimation, localization, and motion planning modules on an 8-thruster over-actuated ROV.
-
+* **Simulation-to-real research stack** — integrated NVIDIA Isaac Sim, ROS-based autonomy modules, a custom ROV ground station, real-time perception and telemetry, and an 8-thruster over-actuated ROV for reproducible underwater robotics experiments.
 ### 🪸 Research Showcase: Coral Reef Inspection
 
 **Task-Oriented Underwater Coral Inspection: From Human Intent to Low-Disturbance Robotic Execution**
