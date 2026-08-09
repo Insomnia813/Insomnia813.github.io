@@ -24,7 +24,7 @@ My research focuses on **marine robotics and underwater autonomy** — I build s
 Specifically, I work on **disturbance-aware motion planning**, **robust underwater perception and state estimation**,
 **vision-language models for marine inspection**, and **real-robot deployment** with Custom experimental platforms.
 
-📄 [**CV**](/files/CV.pdf) &nbsp;·&nbsp;
+📄 [**CV**](/CV.pdf) &nbsp;·&nbsp;
 ✉️ [**Email**](mailto:ygao438@connect.hkust-gz.edu.cn) &nbsp;·&nbsp;
 🎓 [**Google Scholar**](https://scholar.google.com/citations?user=PwHsHYgAAAAJ) &nbsp;·&nbsp;
 💻 [**GitHub**](https://github.com/Insomnia813)
