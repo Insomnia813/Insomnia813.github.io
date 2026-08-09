@@ -22,7 +22,7 @@ advised by [**Prof. Yi Cai**](https://sites.google.com/view/hkust-gz-yicai/home)
 My research focuses on **marine robotics and underwater autonomy** — I build systems that let robots
 **perceive, plan, and act** in visually degraded, hydrodynamically complex underwater environments.
 Specifically, I work on **disturbance-aware motion planning**, **robust underwater perception and state estimation**,
-**vision-language models for marine inspection**, and **real-robot deployment** with ROS-based platforms.
+**vision-language models for marine inspection**, and **real-robot deployment** with Custom experimental platforms.
 
 📄 [**CV**](/files/CV.pdf) &nbsp;·&nbsp;
 ✉️ [**Email**](mailto:ygao438@connect.hkust-gz.edu.cn) &nbsp;·&nbsp;
@@ -127,7 +127,7 @@ Key results include 2,478 annotated CoralVLM records, 4.36/5.0 human-rated quali
 * To bridge simulation and real-world deployment, I developed a **ROV ground station and control stack** integrating real-time video streaming, telemetry visualization, depth and attitude monitoring, trajectory execution, experiment recording, and multiple autonomous motion modes for our over-actuated ROV platform.
 
 <p align="center">
-  <img src="../images/rov_ground_station.png" width="60%" alt="ROV ground station for real-robot experiments"/>
+  <img src="../images/rov_ground_station.png" width="40%" alt="ROV ground station for real-robot experiments"/>
   <br>
   <em>Custom ROV ground station for real-time control, telemetry, video streaming, and autonomous experiment execution.</em>
 </p>
