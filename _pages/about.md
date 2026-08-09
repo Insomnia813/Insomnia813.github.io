@@ -43,8 +43,8 @@ Key results include 2,478 annotated CoralVLM records, 4.36/5.0 human-rated quali
 
 # 📢 News
 
+* **2026.07**: 🎉 Paper on **A vision-based operator-guided framework** for close-range ROV inspection of coral colonies via multi-view 3D anchoring accepted by **Ocean Engineering**!
 * **2026.05**: 📤 Released **CoralVLM, a task-oriented vision-language benchmark** for coral reef inspection.
-* **2026.05**: 📝 **Operator-in-the-loop coral inspection** with shared autonomy under review at *IEEE TASE*.
 * **2026.04**: 📝 **Bidirectionally coupled path planning** for 3D underwater navigation under review at *IEEE JOE*.
 * **2026.01**: 📝 **Disturbance-aware motion planning** for over-actuated ROVs under review at *IEEE/ASME TMECH*.
 * **2025.11**: 🎉 Paper on **Real-time underwater pose estimation** via vision–optical fusion accepted by **IEEE RA-L**!
