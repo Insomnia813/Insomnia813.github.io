@@ -112,6 +112,27 @@ Key results include 2,478 annotated CoralVLM records, 4.36/5.0 human-rated quali
 [Research showcase poster: AI-driven underwater inspection for coral reef conservation]
 [AI-driven underwater inspection poster](images/poster_coral_inspection_preview.png)
 
+---
+
+### 🌐 Ocean Isaac Sim & ROV Research Platform &nbsp;<small>· Simulation-to-Real Underwater Robotics</small>
+
+<p align="center">
+  <img src="../images/ocean_isaac_sim_1.png" width="48%" alt="Ocean Isaac Sim underwater environment"/>
+  &nbsp;
+  <img src="../images/ocean_isaac_sim_2.png" width="48%" alt="ROV simulation in NVIDIA Isaac Sim"/>
+</p>
+
+* I am developing an **Isaac Sim-based underwater robotics environment** for simulation, perception, control, and autonomy research. The platform integrates underwater scenes, coral assets, marine robots, physics-based interaction, and programmable sensing to support reproducible development and evaluation of underwater autonomy algorithms.
+
+* To bridge simulation and real-world deployment, I developed a **ROV ground station and control stack** integrating real-time video streaming, telemetry visualization, depth and attitude monitoring, trajectory execution, experiment recording, and multiple autonomous motion modes for our over-actuated ROV platform.
+
+<p align="center">
+  <img src="../images/rov_ground_station.png" width="90%" alt="ROV ground station for real-robot experiments"/>
+  <br>
+  <em>Custom ROV ground station for real-time control, telemetry, video streaming, and autonomous experiment execution.</em>
+</p>
+
+**Research infrastructure:** NVIDIA Isaac Sim · ROS/ROS2 · Python · Real-time ROV control · Simulation-to-real deployment
 
 ### 🌊 Underwater Navigation in Ocean Currents &nbsp;<small>· JOE Under Review</small>
 
@@ -143,7 +164,7 @@ Key results include 2,478 annotated CoralVLM records, 4.36/5.0 human-rated quali
 * `Yuer Gao`, T. Xu, Y. Cai. ***"Real-Time Millimeter-Accurate Underwater Pose Estimation via Tightly-Coupled Fusion of Vision and Optical Tracking."*** *IEEE Robotics and Automation Letters (RA-L)*, 2025. [[Paper](https://doi.org/10.1109/LRA.2025.3641116)]
 ---
 
-<b>IEEE/ASME TMECH — Under Review</b>
+<b>IEEE/ASME TASE — Under Review</b>
 
 * `Yuer Gao`, T. Xu, Q. Liu, Y. Cai. ***"Disturbance-Aware Motion Planning for Over-Actuated Underwater Vehicles Exploiting Actuation Redundancy for High-Fidelity 3D Reconstruction."*** *IEEE/ASME Transactions on Mechatronics (TMECH)*. Under review.
 
@@ -233,7 +254,7 @@ This poster summarizes my recent work on underwater embodied inspection, integra
 # 🏅 Honors & Awards
 
 * *2024* — **Model Mark Competition — Third Prize**, HKUST(GZ) (Team Leader)
-* *2022* — **National Scholarship (Graduate)** (awarded twice), Ministry of Education, China
+* *2022* — **National Scholarship (Graduate)**, Ministry of Education, China
 * *2022* — **China Robotics & Artificial Intelligence Competition — First Prize**
 * *2021* — **Internet+ Innovation and Entrepreneurship Competition — Gold & Bronze Awards**
 
