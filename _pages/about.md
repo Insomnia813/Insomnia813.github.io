@@ -127,7 +127,7 @@ Key results include 2,478 annotated CoralVLM records, 4.36/5.0 human-rated quali
 * To bridge simulation and real-world deployment, I developed a **ROV ground station and control stack** integrating real-time video streaming, telemetry visualization, depth and attitude monitoring, trajectory execution, experiment recording, and multiple autonomous motion modes for our over-actuated ROV platform.
 
 <p align="center">
-  <img src="../images/rov_ground_station.png" width="40%" alt="ROV ground station for real-robot experiments"/>
+  <img src="../images/rov_ground_station.png" width="50%" alt="ROV ground station for real-robot experiments"/>
   <br>
   <em>Custom ROV ground station for real-time control, telemetry, video streaming, and autonomous experiment execution.</em>
 </p>
