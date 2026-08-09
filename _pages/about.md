@@ -35,7 +35,7 @@ Key results include 2,478 annotated CoralVLM records, 4.36/5.0 human-rated quali
 <!-- ↓ Hero 视觉：替换为你最强的水下机器人 / 重建画面（GIF 或 JPG）
      建议尺寸：宽度 ~900px，GIF < 3MB -->
 <p align="center">
-  <img src="../images/hero_underwater.png" alt="Underwater robot deployment" width="60%"/>
+  <img src="../images/hero_underwater.png" alt="Underwater robot deployment" width="55%"/>
   <br>
   <em>Disturbance-aware underwater reconstruction with an over-actuated ROV.</em>
 </p>
@@ -155,6 +155,7 @@ Key results include 2,478 annotated CoralVLM records, 4.36/5.0 human-rated quali
 <b>Ocean Engineering, 2026</b>
 
 * Yuer Gao`, J. Luo, Y. Cai. ***"A Vision-Based Operator-Guided Framework for Close-Range ROV Inspection of Coral Colonies via Multi-View 3D Anchoring."*** *Ocean Engineering*, **2026**. [[Paper](https://doi.org/10.1016/j.oceaneng.2026.127297)]
+
 ---
 
 <b>IEEE RA-L, 2025</b>
@@ -162,6 +163,7 @@ Key results include 2,478 annotated CoralVLM records, 4.36/5.0 human-rated quali
 <!-- ![teaser](../images/ral2025_teaser.png) -->
 
 * `Yuer Gao`, T. Xu, Y. Cai. ***"Real-Time Millimeter-Accurate Underwater Pose Estimation via Tightly-Coupled Fusion of Vision and Optical Tracking."*** *IEEE Robotics and Automation Letters (RA-L)*, 2025. [[Paper](https://doi.org/10.1109/LRA.2025.3641116)]
+  
 ---
 
 <b>IEEE/ASME TASE — Under Review</b>
