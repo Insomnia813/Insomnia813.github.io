@@ -61,7 +61,7 @@ Key results include 2,478 annotated CoralVLM records, 4.36/5.0 human-rated quali
 
 ---
 
-### 🎯 Disturbance-Aware Underwater Autonomy &nbsp;<small>· TMECH Under Review + TASE Under Review</small>
+### 🎯 Disturbance-Aware Underwater Autonomy &nbsp;<small>· Ocean Engineering 2026 + TASE Under Review</small>
 
 [teaser](../images/disturbance_aware_teaser.png)
 <p align="center">
@@ -74,10 +74,10 @@ Key results include 2,478 annotated CoralVLM records, 4.36/5.0 human-rated quali
   Our redundancy-resolving planner reduces target-region particle velocity by **67%** and improves reconstruction RMSE
   by **55%** (1.9 mm vs. 4.3 mm) relative to disturbance-unaware baselines. Validated through **440 real-robot trials**
   with **98.5% reconstruction success**.
-* A complementary shared-autonomy framework enables **operator-in-the-loop** coral inspection with instance grounding,
-  active 3D anchoring, and disturbance-aware control.
+* Complementing autonomous reconstruction, our operator-in-the-loop shared-autonomy framework integrates instance grounding, 
+ active 3D anchoring, and disturbance-aware control for reliable close-range coral inspection in complex underwater environments. Accepted by Ocean Engineering, 2026.
 * `Yuer Gao`, T. Xu, Q. Liu, J. Luo, **Yi Cai**.
-  &nbsp;[TMECH Under Review] [TASE Under Review]
+  &nbsp;TASE Under Review + Ocean Engineering 2026
 <p align="center">
   <img src="../images/22.gif" alt="Operator-in-the-loop_teaser" width="60%"/>
   <br>
@@ -131,12 +131,16 @@ Key results include 2,478 annotated CoralVLM records, 4.36/5.0 human-rated quali
 
 ---
 
+<b>Ocean Engineering, 2026</b>
+
+* Yuer Gao`, J. Luo, Y. Cai. ***"A Vision-Based Operator-Guided Framework for Close-Range ROV Inspection of Coral Colonies via Multi-View 3D Anchoring."*** *Ocean Engineering*, **2026**. [[Paper](https://doi.org/10.1016/j.oceaneng.2026.127297)]
+---
+
 <b>IEEE RA-L, 2025</b>
 
 <!-- ![teaser](../images/ral2025_teaser.png) -->
 
-* `Yuer Gao`, T. Xu, Y. Cai. ***"Real-Time Millimeter-Accurate Underwater Pose Estimation via Tightly-Coupled Fusion of Vision and Optical Tracking."*** *IEEE Robotics and Automation Letters (RA-L)*, 2025.
-
+* `Yuer Gao`, T. Xu, Y. Cai. ***"Real-Time Millimeter-Accurate Underwater Pose Estimation via Tightly-Coupled Fusion of Vision and Optical Tracking."*** *IEEE Robotics and Automation Letters (RA-L)*, 2025. [[Paper](https://doi.org/10.1109/LRA.2025.3641116)]
 ---
 
 <b>IEEE/ASME TMECH — Under Review</b>
@@ -163,11 +167,6 @@ Key results include 2,478 annotated CoralVLM records, 4.36/5.0 human-rated quali
 
 ---
 
-<b>IEEE TASE — Under Review</b>
-
-* `Yuer Gao`, J. Luo, Y. Cai. ***"Operator-in-the-Loop Underwater Coral Inspection: Instance Grounding, Active 3D Anchoring, and Disturbance-Aware Shared Autonomy."*** *IEEE Transactions on Automation Science and Engineering (TASE)*. Under review.
-
----
 
 <b>ICARM, 2024</b>
 
