@@ -10,8 +10,8 @@ redirect_from:
 
 <section class="profile-hero" aria-labelledby="postdoc-heading">
   <p class="profile-hero__eyebrow">Yuer Gao · Robotics Researcher · Underwater Embodied Intelligence</p>
-  <h1 id="postdoc-heading">Seeking Postdoctoral Opportunities</h1>
-  <p class="profile-hero__lead">Also open to Research Scientist roles in Robotics, Embodied AI, and Autonomous Systems. I build intelligent marine robots that can perceive, reason, and act in challenging underwater environments.</p>
+  <h1 id="postdoc-heading">Seeking Postdoctoral /<br>Research Scientist Opportunities</h1>
+  <p class="profile-hero__lead">I build intelligent marine robots that can perceive, reason, and act in challenging underwater environments.</p>
   <div class="profile-hero__actions">
     <a class="profile-button profile-button--primary" href="/CV.pdf">View CV</a>
     <a class="profile-button" href="mailto:ygao438@connect.hkust-gz.edu.cn">Email Me</a>
@@ -39,7 +39,7 @@ redirect_from:
   <div class="profile-intro">
     <div>
       <h3>What I do</h3>
-      <p>I develop perception, planning, and control systems for underwater robots, with a focus on low-disturbance inspection, robust localization, vision-language understanding, and simulation-to-real deployment.</p>
+      <p>I build complete underwater robotic systems, spanning perception, planning, control, and real-world deployment.</p>
       <p>I am a Ph.D. Candidate at <a href="https://www.hkust-gz.edu.hk/">HKUST(Guangzhou)</a>, advised by <a href="https://sites.google.com/view/hkust-gz-yicai/home">Prof. Yi Cai</a> and co-advised by <a href="https://personal.hkust-gz.edu.cn/junma/index.html">Prof. Jun Ma</a>.</p>
     </div>
     <img src="/images/hero_underwater.png" alt="Underwater robot during a field deployment" />
@@ -69,7 +69,7 @@ redirect_from:
       </div>
     </article>
     <article class="work-card">
-      <img src="/images/coralvlm_teaser.png" alt="CoralVLM vision-language benchmark" />
+      <img class="work-card__image--contain" src="/images/coralvlm_pipeline.png" alt="CoralVLM data sources, annotation pipeline, and structured benchmark record" />
       <div class="work-card__body">
         <p class="work-card__meta">Vision–Language · Embodied AI</p>
         <h3>CoralVLM</h3>
@@ -93,6 +93,7 @@ redirect_from:
     <h2>Recent research</h2>
   </div>
   <div class="publication-list">
+    <p class="publication-group-label">Published</p>
     <article>
       <span>Ocean Engineering · 2026</span>
       <h3>A Vision-Based Operator-Guided Framework for Close-Range ROV Inspection of Coral Colonies via Multi-View 3D Anchoring</h3>
@@ -112,6 +113,22 @@ redirect_from:
       <span>ICARM · 2024</span>
       <h3>Minimum-Snap Trajectory Optimization for Underwater Manipulator</h3>
       <p><strong>Yuer Gao</strong>, T. Xu, Y. Cai</p>
+    </article>
+    <p class="publication-group-label publication-group-label--secondary">Under Review / Submitted</p>
+    <article>
+      <span>IEEE/ASME TMECH · Under Review</span>
+      <h3>Disturbance-Aware Motion Planning for Over-Actuated Underwater Vehicles Exploiting Actuation Redundancy for High-Fidelity 3D Reconstruction</h3>
+      <p><strong>Yuer Gao</strong>, T. Xu, Q. Liu, Y. Cai</p>
+    </article>
+    <article>
+      <span>IEEE JOE · Under Review</span>
+      <h3>Bidirectionally Coupled Global–Local Path Planning for 3D Underwater Navigation in Ocean Currents</h3>
+      <p><strong>Yuer Gao</strong>, Y. Cai</p>
+    </article>
+    <article>
+      <span>IEEE RA-L · Submitted</span>
+      <h3>CoralVLM: A Task-Oriented Vision-Language Benchmark Toward Underwater Embodied Coral Reef Inspection</h3>
+      <p><strong>Yuer Gao</strong>, Y. Zhao, Y. Cai</p>
     </article>
   </div>
   <p class="profile-more"><a href="https://scholar.google.com/citations?user=PwHsHYgAAAAJ">View all publications on Google Scholar →</a></p>
@@ -154,7 +171,7 @@ redirect_from:
 
 <section class="profile-contact" id="contact">
   <p class="profile-kicker">Let’s work together</p>
-  <h2>Looking for a researcher in marine robotics or embodied intelligence?</h2>
+  <h2>Let’s collaborate on marine robotics and embodied intelligence.</h2>
   <p>I would be glad to discuss postdoctoral positions, Research Scientist roles, and research collaborations.</p>
   <div class="profile-hero__actions">
     <a class="profile-button profile-button--primary" href="mailto:ygao438@connect.hkust-gz.edu.cn">Start a Conversation</a>
