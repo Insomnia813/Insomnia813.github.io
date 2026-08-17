@@ -3,7 +3,7 @@
 # ==========================================================================
 
 title: "Yuer Gao's homepage"
-description: "Yuer Gao | Ph.D. Candidate at HKUST(GZ) | Embodied Underwater Intelligence, Marine Robotics, Active Perception, 3D Reconstruction"
+description: "Yuer Gao — robotics researcher building underwater embodied intelligence systems from algorithms to real-world deployment."
 
 # GitHub 仓库（仓库名要严格等于 username.github.io）
 repository: "Insomnia813/Insomnia813.github.io"
@@ -34,9 +34,9 @@ baidu_site_verification: ""
 #   作者信息（左侧名片栏）
 # ==========================================================================
 author:
-  # name: "Yuer Gao"
+  name: "Yuer Gao"
   avatar: "images/profile.jpg"
- #  bio: "Embodied Underwater Intelligence · Marine Robotics · Active Perception · 3D Reconstruction"
+  bio: "Ph.D. Candidate @ HKUST(GZ)<br><br><strong>Robotics Researcher</strong><br>Underwater Embodied Intelligence<br>Marine Robotics · Active Perception"
   employer: "HKUST(Guangzhou)"
   location: "Guangzhou, China"
 
@@ -170,3 +170,4 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
