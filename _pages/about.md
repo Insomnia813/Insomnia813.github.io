@@ -10,7 +10,7 @@ redirect_from:
 
 <section class="profile-hero" aria-labelledby="postdoc-heading">
   <p class="profile-hero__eyebrow">Yuer Gao · Robotics Researcher · Underwater Embodied Intelligence</p>
-  <h1 id="postdoc-heading">Seeking Postdoctoral /<br>Research Scientist Opportunities</h1>
+  <h1 id="postdoc-heading">Seeking Postdoctoral /<br>Research Opportunities</h1>
   <p class="profile-hero__lead">I build intelligent marine robots that can perceive, reason, and act in challenging underwater environments.</p>
   <div class="profile-hero__actions">
     <a class="profile-button profile-button--primary" href="/CV.pdf">View CV</a>
@@ -42,7 +42,7 @@ redirect_from:
       <p>I build complete underwater robotic systems, spanning perception, planning, control, and real-world deployment.</p>
       <p>I am a Ph.D. Candidate at <a href="https://www.hkust-gz.edu.hk/">HKUST(Guangzhou)</a>, advised by <a href="https://sites.google.com/view/hkust-gz-yicai/home">Prof. Yi Cai</a> and co-advised by <a href="https://personal.hkust-gz.edu.cn/junma/index.html">Prof. Jun Ma</a>.</p>
     </div>
-    <img src="/images/hero_underwater.png" alt="Underwater robot during a field deployment" />
+    <img src="/images/rov_ground_station.png" alt="ROV ground station monitoring a real underwater deployment" />
   </div>
 </section>
 
@@ -89,8 +89,8 @@ redirect_from:
 
 <section class="profile-section" id="publications">
   <div class="profile-section__heading">
-    <p class="profile-kicker">Selected publications</p>
-    <h2>Recent research</h2>
+    <p class="profile-kicker">Research output</p>
+    <h2>Selected Publications</h2>
   </div>
   <div class="publication-list">
     <p class="publication-group-label">Published</p>
@@ -172,9 +172,10 @@ redirect_from:
 <section class="profile-contact" id="contact">
   <p class="profile-kicker">Let’s work together</p>
   <h2>Let’s collaborate on marine robotics and embodied intelligence.</h2>
-  <p>I would be glad to discuss postdoctoral positions, Research Scientist roles, and research collaborations.</p>
+  <p>I would be glad to discuss postdoctoral positions, research scientist roles, and research collaborations.</p>
   <div class="profile-hero__actions">
     <a class="profile-button profile-button--primary" href="mailto:ygao438@connect.hkust-gz.edu.cn">Start a Conversation</a>
     <a class="profile-button profile-button--dark" href="/CV.pdf">Download CV</a>
   </div>
 </section>
+
