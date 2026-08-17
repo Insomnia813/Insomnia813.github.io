@@ -10,7 +10,7 @@ redirect_from:
 
 <section class="profile-hero" aria-labelledby="postdoc-heading">
   <p class="profile-hero__eyebrow">Yuer Gao · Robotics Researcher · Underwater Embodied Intelligence</p>
-  <h1 id="postdoc-heading">Seeking Postdoctoral /<br>Research Opportunities</h1>
+  <h1 id="postdoc-heading">Seeking Postdoctoral<br>Research Opportunities</h1>
   <p class="profile-hero__lead">I build intelligent marine robots that can perceive, reason, and act in challenging underwater environments.</p>
   <div class="profile-hero__actions">
     <a class="profile-button profile-button--primary" href="/CV.pdf">View CV</a>
@@ -166,7 +166,7 @@ redirect_from:
     <div class="interest-card"><span aria-hidden="true">✈️</span><strong>Travel & Museums</strong></div>
     <div class="interest-card"><span aria-hidden="true">🌊</span><strong>Ocean Exploration</strong></div>
   </div>
-  <p class="interest-note">Outside the lab, I enjoy nature, creativity, marine ecosystems, and seeing the world from new perspectives.</p>
+  <p class="interest-note">Beyond the lab, I enjoy exploring oceans, photography, tennis, and museums.<br>I am fascinated by how intelligent systems can help us understand and protect the natural world.</p>
 </section>
 
 <section class="profile-contact" id="contact">
