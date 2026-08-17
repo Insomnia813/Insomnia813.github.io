@@ -1,273 +1,163 @@
 ---
 permalink: /
 title: ""
-excerpt: "About me"
+excerpt: "Yuer Gao — Marine Robotics Researcher"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-<!-- =====================================================================
-     项目优先研究员主页 — 基于 CV 真实信息填充
-======================================================================== -->
-
-
-# 👋 About Me
-
-I am **Yuer Gao (高玉儿)**, a Ph.D. Candidate in Smart Manufacturing at
-[The Hong Kong University of Science and Technology (Guangzhou)](https://www.hkust-gz.edu.cn/),
-advised by [**Prof. Yi Cai**](https://sites.google.com/view/hkust-gz-yicai/home) and co-advised by [**Prof. Jun Ma**](https://personal.hkust-gz.edu.cn/junma/index.html).
-
-My research focuses on **marine robotics and underwater autonomy** — I build systems that let robots
-**perceive, plan, and act** in visually degraded, hydrodynamically complex underwater environments.
-Specifically, I work on **disturbance-aware motion planning**, **robust underwater perception and state estimation**,
-**vision-language models for marine inspection**, and **real-robot deployment** with Custom experimental platforms.
-
-📄 [**CV**](/CV.pdf) &nbsp;·&nbsp;
-✉️ [**Email**](mailto:ygao438@connect.hkust-gz.edu.cn) &nbsp;·&nbsp;
-🎓 [**Google Scholar**](https://scholar.google.com/citations?user=PwHsHYgAAAAJ) &nbsp;·&nbsp;
-💻 [**GitHub**](https://github.com/Insomnia813)
-
-[Task-Oriented Underwater Coral Inspection: From Human Intent to Low-Disturbance Robotic Execution]
-[Vision-language understanding, active 3D anchoring, real-time localization, and disturbance-aware autonomy for marine ecosystem monitoring.](images/system.png)
-Key results include 2,478 annotated CoralVLM records, 4.36/5.0 human-rated quality, 67% reduction in target-region disturbance, 98.5% reconstruction success, and 5.65 mm real-time localization accuracy at 62 FPS.
-<!-- ↓ Hero 视觉：替换为你最强的水下机器人 / 重建画面（GIF 或 JPG）
-     建议尺寸：宽度 ~900px，GIF < 3MB -->
-<p align="center">
-  <img src="../images/hero_underwater.png" alt="Underwater robot deployment" width="55%"/>
-  <br>
-  <em>Disturbance-aware underwater reconstruction with an over-actuated ROV.</em>
-</p>
-
-
-# 📢 News
-
-* **2026.07**: 🎉 Paper on **A vision-based operator-guided framework** for close-range ROV inspection of coral colonies via multi-view 3D anchoring accepted by **Ocean Engineering**!
-* **2026.05**: 📤 Released **CoralVLM, a task-oriented vision-language benchmark** for coral reef inspection.
-* **2026.04**: 📝 **Bidirectionally coupled path planning** for 3D underwater navigation under review at *IEEE JOE*.
-* **2026.01**: 📝 **Disturbance-aware motion planning** for over-actuated ROVs under review at *IEEE/ASME TMECH*.
-* **2025.11**: 🎉 Paper on **Real-time underwater pose estimation** via vision–optical fusion accepted by **IEEE RA-L**!
-* **2025.05**: 🎉 **MULoc** (robust monocular underwater localization) accepted by **IEEE CASE 2025**!
-* **2024.11**: 🏆 **Model Mark Competition — Third Prize**, HKUST(GZ), Team Leader.
-* **2024.07**: 🎤 Presented **minimum-snap trajectory optimization** for underwater manipulators at **ICARM 2024**!
-* **2023.09**: 🚀 Started my Ph.D. at HKUST(GZ), Cyber-physical Interaction Lab.
-
-
-# 🚀 Selected Projects
-
-<!-- 每个 project：teaser 图 + 名字 + 定位 + 说明 + 链接
-     准备好 teaser 图后取消注释 img 标签 -->
-
----
-
-### 🎯 Disturbance-Aware Underwater Autonomy &nbsp;<small>· Ocean Engineering 2026 + TASE Under Review</small>
-
-[teaser](../images/disturbance_aware_teaser.png)
-<p align="center">
-  <img src="../images/11.gif" alt="Disturbance_aware_teaser" width="60%"/>
-  <br>
-  <em>Disturbance-aware underwater reconstruction with an over-actuated ROV.</em>
-</p>
-* Over-actuated underwater vehicles (e.g., 8-thruster ROVs) have **redundant actuation** — we exploit this redundancy
-  to suppress sediment resuspension and thruster-induced turbulence during close-range inspection, rather than wasting it.
-  Our redundancy-resolving planner reduces target-region particle velocity by **67%** and improves reconstruction RMSE
-  by **55%** (1.9 mm vs. 4.3 mm) relative to disturbance-unaware baselines. Validated through **440 real-robot trials**
-  with **98.5% reconstruction success**.
-* Complementing autonomous reconstruction, our operator-in-the-loop shared-autonomy framework integrates instance grounding, 
- active 3D anchoring, and disturbance-aware control for reliable close-range coral inspection in complex underwater environments. Accepted by Ocean Engineering, 2026.
-* `Yuer Gao`, T. Xu, Q. Liu, J. Luo, **Yi Cai**.
-  &nbsp;TASE Under Review + Ocean Engineering 2026
-<p align="center">
-  <img src="../images/22.gif" alt="Operator-in-the-loop_teaser" width="60%"/>
-  <br>
-  <em>A complementary shared-autonomy framework enables operator-in-the-loop coral inspection.</em>
-</p>
----
-
-### 🔬 Real-Time Underwater Perception &nbsp;<small>· RA-L 2025 + CASE 2025</small>
-[teaser](../images/perception_teaser.jpg)
-
-* **Vision–Optical Fusion (RA-L 2025):** A tightly coupled framework with latent-variable motion models for real-time
-  underwater state estimation — achieving **5.65 mm position RMSE** at **62 FPS**, a **6.4× improvement** over vision-only baselines.
-* **MULoc (CASE 2025):** A monocular localization framework fusing RGB and geometric depth cues for robust tracking
-  under turbidity — **92% tracking success** and **< 1% trajectory-length localization error** at 25 FPS.
-* `Yuer Gao`, T. Xu, **Yi Cai**.
-  &nbsp;[RA-L 2025](https://ieeexplore.ieee.org/abstract/document/11282975) [CASE 2025](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11163891)
-<p align="center">
-  <img src="../images/33.gif" alt="A monocular localization framework_teaser" width="60%"/>
-  <br>
-  <em>A monocular localization framework fusing RGB and geometric depth cues for robust tracking with an our-designed ROV.</em>
-</p>
----
-
-### 🪸 CoralVLM &nbsp;<small>· Vision-Language for Coral Reef Inspection · RA-L Submitted</small>
-
-[teaser](../images/coralvlm_teaser.png)
-
-* A **task-oriented vision-language benchmark** for underwater embodied coral reef inspection.
-  CoralVLM pairs structured visual reasoning with actionable task planning, bridging the gap between
-  general-purpose VLMs and the demands of marine ecosystem monitoring.
-* `Yuer Gao`, Y. Zhao, **Yi Cai**. *Submitted to IEEE RA-L*.
-[Research showcase poster: AI-driven underwater inspection for coral reef conservation]
-[AI-driven underwater inspection poster](images/poster_coral_inspection_preview.png)
-
----
-
-### 🌐 Ocean Isaac Sim & ROV Research Platform &nbsp;<small>· Simulation-to-Real Underwater Robotics</small>
-
-<p align="center">
-  <img src="../images/ocean_isaac_sim_1.png" width="48%" alt="Ocean Isaac Sim underwater environment"/>
-  &nbsp;
-  <img src="../images/ocean_isaac_sim_2.png" width="48%" alt="ROV simulation in NVIDIA Isaac Sim"/>
-</p>
-
-* I am developing an **Isaac Sim-based underwater robotics environment** for simulation, perception, control, and autonomy research. The platform integrates underwater scenes, coral assets, marine robots, physics-based interaction, and programmable sensing to support reproducible development and evaluation of underwater autonomy algorithms.
-
-* To bridge simulation and real-world deployment, I developed a **ROV ground station and control stack** integrating real-time video streaming, telemetry visualization, depth and attitude monitoring, trajectory execution, experiment recording, and multiple autonomous motion modes for our over-actuated ROV platform.
-
-<p align="center">
-  <img src="../images/rov_ground_station.png" width="50%" alt="ROV ground station for real-robot experiments"/>
-  <br>
-  <em>Custom ROV ground station for real-time control, telemetry, video streaming, and autonomous experiment execution.</em>
-</p>
-
-**Research infrastructure:** NVIDIA Isaac Sim · Python · Real-time ROV control · Simulation-to-real deployment
-
-### 🌊 Underwater Navigation in Ocean Currents &nbsp;<small>· JOE Under Review</small>
-
-[teaser](../images/navigation_teaser.png)
-
-* **Bidirectionally coupled global–local path planning** for 3D underwater navigation that accounts for
-  ocean current disturbances. The global planner and local planner exchange information bidirectionally,
-  enabling efficient, safe navigation in dynamic marine environments.
-* `Yuer Gao`, **Yi Cai**. *Under review at IEEE Journal of Oceanic Engineering*.
-
-
-# 📝 Selected Publications
-
-<!-- 一作论文 -->
-
-<b>First-Author Publications</b>
-
----
-
-<b>Ocean Engineering, 2026</b>
-
-* Yuer Gao`, J. Luo, Y. Cai. ***"A Vision-Based Operator-Guided Framework for Close-Range ROV Inspection of Coral Colonies via Multi-View 3D Anchoring."*** *Ocean Engineering*, **2026**. [[Paper](https://doi.org/10.1016/j.oceaneng.2026.127297)]
-
----
-
-<b>IEEE RA-L, 2025</b>
-
-<!-- ![teaser](../images/ral2025_teaser.png) -->
-
-* `Yuer Gao`, T. Xu, Y. Cai. ***"Real-Time Millimeter-Accurate Underwater Pose Estimation via Tightly-Coupled Fusion of Vision and Optical Tracking."*** *IEEE Robotics and Automation Letters (RA-L)*, 2025. [[Paper](https://doi.org/10.1109/LRA.2025.3641116)]
-  
----
-
-<b>IEEE/ASME TASE — Under Review</b>
-
-* `Yuer Gao`, T. Xu, Q. Liu, Y. Cai. ***"Disturbance-Aware Motion Planning for Over-Actuated Underwater Vehicles Exploiting Actuation Redundancy for High-Fidelity 3D Reconstruction."*** *IEEE/ASME Transactions on Mechatronics (TMECH)*. Under review.
-
----
-
-<b>IEEE CASE, 2025</b>
-
-* `Yuer Gao`, Y. Cai. ***"MULoc: Robust Monocular Visual Localization for Underwater Robots via Multi-modal Feature Fusion."*** *IEEE International Conference on Automation Science and Engineering (CASE)*, 2025.
-
----
-
-<b>IEEE JOE — Under Review</b>
-
-* `Yuer Gao`, Y. Cai. ***"Bidirectionally Coupled Global–Local Path Planning for 3D Underwater Navigation in Ocean Currents."*** *IEEE Journal of Oceanic Engineering (JOE)*. Under review.
-
----
-
-<b>IEEE RA-L — Submitted</b>
-
-* `Yuer Gao`, Y. Zhao, Y. Cai. ***"CoralVLM: A Task-Oriented Vision-Language Benchmark Toward Underwater Embodied Coral Reef Inspection."*** *IEEE Robotics and Automation Letters (RA-L)*. Submitted.
-
----
-
-
-<b>ICARM, 2024</b>
-
-* `Yuer Gao`, T. Xu, Y. Cai. ***"Minimum-Snap Trajectory Optimization for Underwater Manipulator."*** *Proceedings of the International Conference on Advanced Robotics and Mechatronics (ICARM)*, 2024.
-
----
-
-<b>Frontiers in Neurorobotics, 2022</b>
-
-* `Yuer Gao`, X. Zhang, et al. ***"UVMS Task-Priority Planning Framework for Underwater Task Goal Classification Optimization."*** *Frontiers in Neurorobotics*, 2022.
-
----
-
-<b>Selected Co-Author Publications</b>
-
-* Z. Liao, W. Wei, L. Zhang, **Y. Gao**, Y. Cai. *"An Augmented Reality-Enabled Digital Twin System for Reconfigurable Soft Robots: Visualization, Simulation and Interaction."* Computers in Industry, 2025.
-* Q. Liu, T. Xu, F. Zhan, **Y. Gao**, Z. Liao, Y. Cai. *"Autonomous Magnetically Reconfigurable Soft Gripping System for Adaptive Manipulation in Smart Manufacturing."* Computers & Industrial Engineering, 2026.
-* T. Xu, **Y. Gao**, Y. Cai. *"AI-Based Structural Feature Recognition for Robotic Grasping of Additive Manufacturing Parts."* FAIM, 2024.
-* **Y. Gao**, X. Zhang, Y. Gao, T. Shang, Q. Yang. *"Underwater Manipulator Control Based on Neural Network and Fuzzy Compensation."* Computer Engineering and Applications, 2022. (Chinese Core, CSCD, EI)
-
-
-# 🌊 Field Deployment & Media
-
-<p align="center">
-  <img src="../images/deployment_pool.jpg" width="32%" alt="Pool experiment"/>
-  &nbsp;
-  <img src="../images/deployment_field.png" width="32%" alt="Coral deployment"/>
-  &nbsp;
-  <img src="../images/deployment_rov.png" width="32%" alt="ROV platform"/>
-</p>
-
-* **Pool experiments at HKUST(GZ)** — testing perception-planning-control pipelines in a controlled tank with real ROV hardware.
-* **440 real-robot trials** — disturbance-aware reconstruction validated under visually degraded and hydrodynamically challenging conditions.
-* **Simulation-to-real research stack** — integrated NVIDIA Isaac Sim, ROS-based autonomy modules, a custom ROV ground station, real-time perception and telemetry, and an 8-thruster over-actuated ROV for reproducible underwater robotics experiments.
-### 🪸 Research Showcase: Coral Reef Inspection
-
-**Task-Oriented Underwater Coral Inspection: From Human Intent to Low-Disturbance Robotic Execution**
-
-This poster summarizes my recent work on underwater embodied inspection, integrating CoralVLM-based task understanding, operator-guided visual grounding, active 3D anchoring, real-time underwater pose estimation, and disturbance-aware robotic execution for coral reef monitoring.
-![Research showcase poster](images/poster_coral_inspection_preview.png)
-
-# 🎓 Education
-
-<div style="margin-bottom:16px;">
-<strong>The Hong Kong University of Science and Technology (Guangzhou)</strong><br/>
-&emsp;Ph.D. in Smart Manufacturing — 2023 – Present (Expected Dec. 2026)<br/>
-&emsp;GPA: 3.5 / 4.0 &nbsp;·&nbsp; Supervised by <a href="https://sites.google.com/view/hkust-gz-yicai/home">Prof. Yi Cai</a>
-</div>
-
-<div style="margin-bottom:16px;">
-<strong>Xi'an University of Technology</strong><br/>
-&emsp;M.S. in Control Science and Engineering — 2021 – 2023<br/>
-&emsp;GPA: 4.4 / 5.0 &nbsp;·&nbsp; Supervised by <a href="https://baike.baidu.com/item/%E5%BC%A0%E6%99%93%E6%99%96/57166768">Prof. Xiaohui Zhang</a>
-</div>
-
-<div style="margin-bottom:16px;">
-<strong>Xi'an University of Technology</strong><br/>
-&emsp;B.E. in Automation — 2017 – 2021<br/>
-&emsp;GPA: 4.2 / 5.0 &nbsp;·&nbsp; Top 3%
-</div>
-
-
-# 🏅 Honors & Awards
-
-* *2024* — **Model Mark Competition — Third Prize**, HKUST(GZ) (Team Leader)
-* *2022* — **National Scholarship (Graduate)**, Ministry of Education, China
-* *2022* — **China Robotics & Artificial Intelligence Competition — First Prize**
-* *2021* — **Internet+ Innovation and Entrepreneurship Competition — Gold & Bronze Awards**
-
-
-# 💬 Academic Services
-
-### Reviewer
-
-* **Ocean Engineering**
-* **IEEE International Conference on Robotics and Automation (ICRA)**
-* **IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)**
-
-### Teaching
-
-* Teaching Assistant — *UCMP 6010: Cross-disciplinary Research Methods*, HKUST(GZ)
+<section class="profile-hero" aria-labelledby="postdoc-heading">
+  <p class="profile-hero__eyebrow">Yuer Gao · Robotics Researcher · Underwater Embodied Intelligence</p>
+  <h1 id="postdoc-heading">Seeking Postdoctoral Opportunities</h1>
+  <p class="profile-hero__lead">Also open to Research Scientist roles in Robotics, Embodied AI, and Autonomous Systems. I build intelligent marine robots that can perceive, reason, and act in challenging underwater environments.</p>
+  <div class="profile-hero__actions">
+    <a class="profile-button profile-button--primary" href="/CV.pdf">View CV</a>
+    <a class="profile-button" href="mailto:ygao438@connect.hkust-gz.edu.cn">Email Me</a>
+    <a class="profile-button" href="https://scholar.google.com/citations?user=PwHsHYgAAAAJ">Google Scholar</a>
+  </div>
+  <div class="profile-tags" aria-label="Research areas">
+    <span>Marine Robotics</span>
+    <span>Embodied Intelligence</span>
+    <span>Underwater Autonomy</span>
+    <span>3D Perception</span>
+  </div>
+</section>
+
+<section class="profile-section" id="research">
+  <div class="profile-section__heading">
+    <p class="profile-kicker">At a glance</p>
+    <h2>Research with real-world impact</h2>
+  </div>
+  <div class="impact-grid">
+    <div class="impact-card"><strong>67%</strong><span>less target-region disturbance</span></div>
+    <div class="impact-card"><strong>98.5%</strong><span>3D reconstruction success</span></div>
+    <div class="impact-card"><strong>5.65 mm</strong><span>localization accuracy</span></div>
+    <div class="impact-card"><strong>62 FPS</strong><span>real-time pose estimation</span></div>
+  </div>
+  <div class="profile-intro">
+    <div>
+      <h3>What I do</h3>
+      <p>I develop perception, planning, and control systems for underwater robots, with a focus on low-disturbance inspection, robust localization, vision-language understanding, and simulation-to-real deployment.</p>
+      <p>I am a Ph.D. Candidate at <a href="https://www.hkust-gz.edu.hk/">HKUST(Guangzhou)</a>, advised by <a href="https://sites.google.com/view/hkust-gz-yicai/home">Prof. Yi Cai</a> and co-advised by <a href="https://personal.hkust-gz.edu.cn/junma/index.html">Prof. Jun Ma</a>.</p>
+    </div>
+    <img src="/images/hero_underwater.png" alt="Underwater robot during a field deployment" />
+  </div>
+</section>
+
+<section class="profile-section" id="selected-work">
+  <div class="profile-section__heading">
+    <p class="profile-kicker">Selected work</p>
+    <h2>From algorithms to underwater deployment</h2>
+  </div>
+  <div class="work-grid">
+    <article class="work-card">
+      <img src="/images/11.gif" alt="Disturbance-aware underwater reconstruction" />
+      <div class="work-card__body">
+        <p class="work-card__meta">Planning · Control · Real Robot</p>
+        <h3>Disturbance-Aware Autonomy</h3>
+        <p>Motion planning for over-actuated ROVs that protects fragile targets while maintaining reliable 3D reconstruction.</p>
+      </div>
+    </article>
+    <article class="work-card">
+      <img src="/images/33.gif" alt="Underwater visual localization" />
+      <div class="work-card__body">
+        <p class="work-card__meta">Perception · Sensor Fusion</p>
+        <h3>Real-Time Underwater Localization</h3>
+        <p>Vision–optical fusion and monocular localization designed for turbidity, motion, and changing underwater visibility.</p>
+      </div>
+    </article>
+    <article class="work-card">
+      <img src="/images/coralvlm_teaser.png" alt="CoralVLM vision-language benchmark" />
+      <div class="work-card__body">
+        <p class="work-card__meta">Vision–Language · Embodied AI</p>
+        <h3>CoralVLM</h3>
+        <p>A task-oriented vision-language benchmark connecting visual reasoning with actionable coral-inspection plans.</p>
+      </div>
+    </article>
+    <article class="work-card">
+      <img src="/images/ocean_isaac_sim_1.png" alt="Ocean Isaac Sim environment" />
+      <div class="work-card__body">
+        <p class="work-card__meta">Simulation · Systems</p>
+        <h3>Ocean Isaac Sim & ROV Platform</h3>
+        <p>An integrated research stack for simulation, telemetry, control, experiment recording, and sim-to-real evaluation.</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="profile-section" id="publications">
+  <div class="profile-section__heading">
+    <p class="profile-kicker">Selected publications</p>
+    <h2>Recent research</h2>
+  </div>
+  <div class="publication-list">
+    <article>
+      <span>Ocean Engineering · 2026</span>
+      <h3>A Vision-Based Operator-Guided Framework for Close-Range ROV Inspection of Coral Colonies via Multi-View 3D Anchoring</h3>
+      <p><strong>Yuer Gao</strong>, J. Luo, Y. Cai · <a href="https://doi.org/10.1016/j.oceaneng.2026.127297">Paper</a></p>
+    </article>
+    <article>
+      <span>IEEE RA-L · 2025</span>
+      <h3>Real-Time Millimeter-Accurate Underwater Pose Estimation via Tightly-Coupled Fusion of Vision and Optical Tracking</h3>
+      <p><strong>Yuer Gao</strong>, T. Xu, Y. Cai · <a href="https://doi.org/10.1109/LRA.2025.3641116">Paper</a></p>
+    </article>
+    <article>
+      <span>IEEE CASE · 2025</span>
+      <h3>MULoc: Robust Monocular Visual Localization for Underwater Robots via Multi-modal Feature Fusion</h3>
+      <p><strong>Yuer Gao</strong>, Y. Cai</p>
+    </article>
+    <article>
+      <span>ICARM · 2024</span>
+      <h3>Minimum-Snap Trajectory Optimization for Underwater Manipulator</h3>
+      <p><strong>Yuer Gao</strong>, T. Xu, Y. Cai</p>
+    </article>
+  </div>
+  <p class="profile-more"><a href="https://scholar.google.com/citations?user=PwHsHYgAAAAJ">View all publications on Google Scholar →</a></p>
+</section>
+
+<section class="profile-section" id="experience">
+  <div class="profile-section__heading">
+    <p class="profile-kicker">Background</p>
+    <h2>Education & recognition</h2>
+  </div>
+  <div class="profile-columns">
+    <div class="profile-panel">
+      <h3>Education</h3>
+      <p><strong>Ph.D., Smart Manufacturing</strong><br>HKUST(Guangzhou), 2023–2026 (expected)</p>
+      <p><strong>M.S., Control Science and Engineering</strong><br>Xi'an University of Technology, 2021–2023</p>
+      <p><strong>B.E., Automation</strong><br>Xi'an University of Technology, 2017–2021</p>
+    </div>
+    <div class="profile-panel">
+      <h3>Selected recognition</h3>
+      <p><strong>National Scholarship</strong><br>Ministry of Education, China · 2022</p>
+      <p><strong>China Robotics & AI Competition</strong><br>First Prize · 2022</p>
+      <p><strong>Model Mark Competition</strong><br>Third Prize, Team Leader · 2024</p>
+    </div>
+  </div>
+</section>
+
+<section class="profile-section" id="beyond-research">
+  <div class="profile-section__heading">
+    <p class="profile-kicker">Beyond research</p>
+    <h2>What keeps me curious</h2>
+  </div>
+  <div class="interest-grid" aria-label="Personal interests">
+    <div class="interest-card"><span aria-hidden="true">🎾</span><strong>Tennis</strong></div>
+    <div class="interest-card"><span aria-hidden="true">📷</span><strong>Photography</strong></div>
+    <div class="interest-card"><span aria-hidden="true">✈️</span><strong>Travel & Museums</strong></div>
+    <div class="interest-card"><span aria-hidden="true">🌊</span><strong>Ocean Exploration</strong></div>
+  </div>
+  <p class="interest-note">Outside the lab, I enjoy nature, creativity, marine ecosystems, and seeing the world from new perspectives.</p>
+</section>
+
+<section class="profile-contact" id="contact">
+  <p class="profile-kicker">Let’s work together</p>
+  <h2>Looking for a researcher in marine robotics or embodied intelligence?</h2>
+  <p>I would be glad to discuss postdoctoral positions, Research Scientist roles, and research collaborations.</p>
+  <div class="profile-hero__actions">
+    <a class="profile-button profile-button--primary" href="mailto:ygao438@connect.hkust-gz.edu.cn">Start a Conversation</a>
+    <a class="profile-button profile-button--dark" href="/CV.pdf">Download CV</a>
+  </div>
+</section>
