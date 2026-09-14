@@ -40,7 +40,6 @@ redirect_from:
     <div>
       <h3>What I do</h3>
       <p>I build complete underwater robotic systems, spanning perception, planning, control, and real-world deployment.</p>
-      <p>I am a Ph.D. Candidate at <a href="https://www.hkust-gz.edu.hk/">HKUST(Guangzhou)</a>, advised by <a href="https://sites.google.com/view/hkust-gz-yicai/home">Prof. Yi Cai</a> and co-advised by <a href="https://personal.hkust-gz.edu.cn/junma/index.html">Prof. Jun Ma</a>.</p>
     </div>
     <img src="/images/rov_ground_station.png" alt="ROV ground station monitoring a real underwater deployment" />
   </div>
