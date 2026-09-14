@@ -36,9 +36,9 @@ baidu_site_verification: ""
 author:
   name: "Yuer Gao"
   avatar: "images/profile.jpg"
-  bio: "Ph.D. Candidate @ HKUST(GZ)<br><br><strong>Robotics Researcher</strong><br>Underwater Embodied Intelligence<br>Marine Robotics · Active Perception"
-  employer: "HKUST(Guangzhou)"
-  location: "Guangzhou, China"
+  bio: "Ph.D. Candidate @ HKUST<br><br><strong>Robotics Researcher</strong><br>Underwater Embodied Intelligence<br>Marine Robotics · Active Perception"
+  employer: "HKUST"
+  location: "Hong Kong SAR"
 
   # 联系方式 / 社交链接（没有的留空即可）
   email: "ygao438@connect.hkust-gz.edu.cn"   # ← 填你的邮箱
