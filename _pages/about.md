@@ -115,18 +115,18 @@ redirect_from:
     </article>
     <p class="publication-group-label publication-group-label--secondary">Under Review / Submitted</p>
     <article>
-      <span>IEEE/ASME TMECH · Under Review</span>
-      <h3>Disturbance-Aware Motion Planning for Over-Actuated Underwater Vehicles Exploiting Actuation Redundancy for High-Fidelity 3D Reconstruction</h3>
+      <span>IEEE Transactions on Automation Science and Engineering (TASE) · Under Review</span>
+      <h3>Acquisition Aware Redundant Control Allocation for Automated Underwater Inspection</h3>
       <p><strong>Yuer Gao</strong>, T. Xu, Q. Liu, Y. Cai</p>
     </article>
     <article>
-      <span>IEEE JOE · Under Review</span>
+      <span>IEEE JOE · <strong>Minor revision</strong></span>
       <h3>Bidirectionally Coupled Global–Local Path Planning for 3D Underwater Navigation in Ocean Currents</h3>
       <p><strong>Yuer Gao</strong>, Y. Cai</p>
     </article>
     <article>
       <span>IEEE RA-L · Submitted</span>
-      <h3>CoralVLM: A Task-Oriented Vision-Language Benchmark Toward Underwater Embodied Coral Reef Inspection</h3>
+      <h3>CoralPlan: Observation Skill Selection and Execution for Underwater Robotic Inspection</h3>
       <p><strong>Yuer Gao</strong>, Y. Zhao, Y. Cai</p>
     </article>
   </div>
