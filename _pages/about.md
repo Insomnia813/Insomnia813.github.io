@@ -125,7 +125,7 @@ redirect_from:
       <p><strong>Yuer Gao</strong>, Y. Cai</p>
     </article>
     <article>
-      <span>IEEE RA-L · Submitted</span>
+      <span>IEEE RA-L · Under Review</span>
       <h3>CoralPlan: Observation Skill Selection and Execution for Underwater Robotic Inspection</h3>
       <p><strong>Yuer Gao</strong>, Y. Zhao, Y. Cai</p>
     </article>
