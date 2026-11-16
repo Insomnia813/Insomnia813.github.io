@@ -120,7 +120,7 @@ redirect_from:
     </article>
     <p class="publication-group-label publication-group-label--secondary">In review</p>
     <article>
-      <span>IEEE T-ASE · <strong>Under review</strong></span>
+      <span>IEEE T-ASE · <strong>Revision</strong></span>
       <h3>Acquisition-Aware Control Allocation for Close-Range ROV Visual Inspection</h3>
       <p><strong>Yuer Gao</strong>, T. Xu, Q. Liu, Y. Cai</p>
     </article>
