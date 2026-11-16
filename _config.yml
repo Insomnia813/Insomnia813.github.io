@@ -36,7 +36,7 @@ baidu_site_verification: ""
 author:
   name: "Yuer Gao"
   avatar: "images/profile.jpg"
-  bio: "Ph.D. Candidate @ HKUST<br><br><strong>Robotics Researcher</strong><br>Underwater Embodied Intelligence<br>Marine Robotics · Active Perception"
+  bio: "Ph.D. Candidate @ HKUST (Guangzhou)<br><br><strong>Robotics Researcher</strong><br>Underwater Embodied Intelligence<br>Marine Robotics · Active Perception"
   employer: "HKUST (Guangzhou)"
   location: "Hong Kong SAR"
 
@@ -44,7 +44,7 @@ author:
   email: "yuergao299@gmail.com"   # ← 填你的邮箱
   googlescholar: "https://scholar.google.com/citations?user=PwHsHYgAAAAJ"
   github: "Insomnia813"
-  linkedin: "https://www.linkedin.com/in/yuer-gao-a91938431/"
+  linkedin: "yuer-gao-a91938431"
   orcid: "https://orcid.org/0000-0001-8004-123X"
   researchgate: "https://www.researchgate.net/profile/Yuer-Gao?ev=hdr_xprf"
   pubmed:

@@ -1,9 +1,6 @@
 # 顶部导航菜单
 
 main:
-  - title: "Home"
-    url: /
-
   - title: "Research"
     url: /#research
 
